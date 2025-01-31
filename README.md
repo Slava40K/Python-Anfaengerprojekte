@@ -12,8 +12,9 @@ Inhalt:
   - Text-leser:            Kann .txt Dateien öffnen, lesen und neue Informationen hinzufügen und speichern
   - Dictionaries übung:    Übung zum Kombinieren von Listen, Dictionaries und Schleifen
 
-Dieses Repository dient lediglich dazu um es bei Bewerbungen meinem Lebenslauf beizufügen
-um potentiellen Arbeitgebern eine kleine Vorschau meiner bisherigen Coding-Skills zu geben.
+Dieses Repository dient lediglich dazu um es meinen Bewerbungen beizufügen, da ich 
+mich für eine Ausbildungsstelle bewerben möchte und hiermit eine kleine Vorschau meiner
+Coding-Fähigkeiten gebe.
 
 Der Hauptzweck dieser Projekte war einfach Spaß am Programmieren zu haben und dabei
 die Grundlagen von Python zu erlernen.

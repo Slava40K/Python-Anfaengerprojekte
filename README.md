@@ -4,13 +4,15 @@ an denen ich bisher in meiner Freizeit gebastelt habe.
 
 Inhalt:
   - Polygon-Rechner:       Berechnung von 2 dimensionalen Polygonfiguren
-  - Passwort-Generator:    Erstellt zufällig generierte Passwörter
-  - Taschenrechner:        Taschenrechner der die 4 Grundrechenarten mit 2 Zahlen ausführen kann
-  - Temperatur-Umwandler:  Wandelt Celcius in Fahrenheit und Kelvin um und vice versa
   - Cäsar-Verschlüsselung: Ein Programm um Nachrichten zu Ver- und Entschlüsseln
-  - Schere,Stein,Papier:   Spiele SSP gegen den Computer
+  - Passwort-Generator:    Erstellt zufällig generierte Passwörter
   - Text-leser:            Kann .txt Dateien öffnen, lesen und neue Informationen hinzufügen und speichern
   - Dictionaries übung:    Übung zum Kombinieren von Listen, Dictionaries und Schleifen
+  - Taschenrechner:        Taschenrechner der die 4 Grundrechenarten mit 2 Zahlen ausführen kann
+  - Temperatur-Umwandler:  Wandelt Celcius in Fahrenheit und Kelvin um und vice versa
+  - Galgen-Männchen:       simples Galgenmännchen Spiel
+  - Schere,Stein,Papier:   Spiele SSP gegen den Computer
+  - Würfelsimulator:       Erlaubt es eine beliebige Anzahl von Würfeln mit einer Beliebigen Anzahl von Seiten zu werfen
 
 Dieses Repository dient lediglich dazu um es meinen Bewerbungen beizufügen, da ich 
 mich für eine Ausbildungsstelle bewerben möchte und hiermit eine kleine Vorschau meiner

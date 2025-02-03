@@ -1,6 +1,9 @@
 # Code Showcase
 This repository is a small selection of the beginner-level Python projects
 that I've been working on in my free time over the last year or so.
+
+It mainly serves as a showcase of my current coding skills for application purposes.
+
 The main goal I had when creating these projects was simply to have fun while learning the basic concepts of the Python programming language. 
 
 

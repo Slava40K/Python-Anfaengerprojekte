@@ -56,9 +56,9 @@ while True:
 
     # Abhängig von der Benutzerwahl wird entweder die Lese- oder Schreibfunktion aufgerufen
     if auswahl == "1":
-        oeffne_und_lese(datei_pfad)  # Ruft die Funktion zum Lesen der Datei auf
+        oeffne_und_lese(datei_pfad)
     elif auswahl == "2":
-        schreibe_und_speichere(datei_pfad)  # Ruft die Funktion zum Schreiben in die Datei auf
+        schreibe_und_speichere(datei_pfad)
     else:
         # Wenn der Benutzer eine ungültige Auswahl trifft, wird eine Fehlermeldung angezeigt
         print("Ungültige Auswahl. Bitte wählen Sie eine der angegebenen Optionen.")

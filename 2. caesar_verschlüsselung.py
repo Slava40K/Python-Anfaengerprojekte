@@ -8,30 +8,29 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
 # 'caesar' Funktion zum Verschlüsseln und Entschlüsseln
 def caesar(richtung, text, verschiebung):
     
-    # Verschlüsselung, wenn die Richtung '1' ist
+    # if statements um zu prüfen ob verschlüsselt oder entschlüsselt werden soll '1' oder '2'
     if richtung == '1':
-        verschluesselte_zeichen_string = ""  # Variable für die verschlüsselte Nachricht
-        # Für jedes Zeichen im Text
+        verschluesselte_zeichen_string = ""
+        # for schleife zum verschlüssen der eigegebenen 'text'-Nachricht
         for zeichen in text:
-            if zeichen in alphabet:  # Überprüfe, ob das Zeichen im Alphabet enthalten ist
-                verschluesselt_zeichen = alphabet.index(zeichen) + verschiebung  # Verschiebe das Zeichen um 'verschiebung'
+            if zeichen in alphabet:
+                verschluesselt_zeichen = alphabet.index(zeichen) + verschiebung  
                 verschluesselt_zeichen %= len(alphabet)  # Verhindert einen Indexfehler, falls die Verschiebung das Alphabet übersteigt
-                verschluesselte_zeichen_string += alphabet[verschluesselt_zeichen]  # Füge das verschlüsselte Zeichen zur Ausgabe hinzu
+                verschluesselte_zeichen_string += alphabet[verschluesselt_zeichen]  
             else:
-                verschluesselte_zeichen_string += zeichen  # Füge nicht-alphabetische Zeichen unverändert hinzu
+                verschluesselte_zeichen_string += zeichen  # Füge nicht-alphabetische Zeichen unverändert hinzu (!,%,?,etc.)
         print(verschluesselte_zeichen_string)  # Gib die verschlüsselte Nachricht aus
 
-    # Entschlüsselung, wenn die Richtung '2' ist
     if richtung == '2':
-        entschluesselte_zeichen_string = ""  # Variable für die entschlüsselte Nachricht
-        # Für jedes Zeichen im Text
+        entschluesselte_zeichen_string = ""
+        # for schleife um 'text'-Nachricht zu entschlüsseln
         for zeichen in text:
-            if zeichen in alphabet:  # Überprüfe, ob das Zeichen im Alphabet enthalten ist
-                entschluesselt_zeichen = alphabet.index(zeichen) - verschiebung  # Verschiebe das Zeichen rückwärts um 'verschiebung'
+            if zeichen in alphabet:
+                entschluesselt_zeichen = alphabet.index(zeichen) - verschiebung
                 entschluesselt_zeichen %= len(alphabet)  # Verhindert einen Indexfehler, falls die Verschiebung das Alphabet übersteigt
-                entschluesselte_zeichen_string += alphabet[entschluesselt_zeichen]  # Füge das entschlüsselte Zeichen zur Ausgabe hinzu
+                entschluesselte_zeichen_string += alphabet[entschluesselt_zeichen]
             else:
-                entschluesselte_zeichen_string += zeichen  # Füge nicht-alphabetische Zeichen unverändert hinzu
+                entschluesselte_zeichen_string += zeichen
         print(entschluesselte_zeichen_string)  # Gib die entschlüsselte Nachricht aus
 
 # while Schleife, um dem Benutzer zu ermöglichen, das Programm weiter zu verwenden oder zu beenden.
@@ -39,7 +38,7 @@ while True:
     # Benutzer nach der Richtung fragen (Verschlüsselung oder Entschlüsselung)
     richtung = input("Gib '1' ein, um zu verschlüsseln, gib '2' ein, um zu entschlüsseln:\n")
     # Benutzer nach dem Text fragen, der verschlüsselt oder entschlüsselt werden soll
-    text = input("Gib deine Nachricht ein:\n").lower()  # Der Text wird in Kleinbuchstaben umgewandelt
+    text = input("Gib deine Nachricht ein:\n").lower()
     # Benutzer nach der Verschiebungszahl fragen
     verschiebung = int(input("Gib die Verschiebungszahl ein:\n"))
     

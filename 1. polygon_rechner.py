@@ -1,23 +1,19 @@
-import math
+# einfaches Programm um Maße von 2 dimensionalen Figuren zu berrechnen
 
-# Basisklasse für polygonale Formen
+import math # modul importieren um mathematische funktionen zu nutzen
+
+# Basisklasse für polygonale Figuren
 class Polygone:
     def __init__(self, länge_a, breite):
         self.länge_a, self.breite = länge_a, breite
-
-    # Berechnung des Umfangs eines Rechtecks
+    
+    # Funktionen um verschieden Maße von Rechteck/Quadrat zu berechnen
     def umfang_rechteck(self):
         return 2 * (self.länge_a + self.breite)
-    
-    # Berechnung der Fläche eines Rechtecks
     def fläche_rechteck(self):
         return self.länge_a * self.breite
-    
-    # Berechnung des Umfangs eines Quadrats
     def umfang_quadrat(self):
         return self.länge_a * 4
-    
-    # Berechnung der Fläche eines Quadrats
     def fläche_quadrat(self):
         return self.länge_a ** 2
 
@@ -26,11 +22,9 @@ class Dreieck:
     def __init__(self, länge_a, länge_b, länge_c):
         self.länge_a, self.länge_b, self.länge_c = länge_a, länge_b, länge_c
 
-    # Berechnung des Umfangs eines Dreiecks
+    # Funktionen um Maße von Dreiecken zu berechnen
     def umfang_dreieck(self):
-        return self.länge_a + self.länge_b + self.länge_c
-    
-    # Berechnung der Fläche eines Dreiecks 
+        return self.länge_a + self.länge_b + self.länge_c 
     def fläche_dreieck(self):
         s = self.umfang_dreieck() / 2
         return math.sqrt(s * (s - self.länge_a) * (s - self.länge_b) * (s - self.länge_c))
@@ -40,24 +34,22 @@ class Trapez:
     def __init__(self, höhe, länge_a, länge_b, länge_c, länge_d):
         self.höhe, self.länge_a, self.länge_b, self.länge_c, self.länge_d = höhe, länge_a, länge_b, länge_c, länge_d
 
-    # Berechnung des Umfangs eines Trapezes
+    # Funktionen um Trapez Maße zu berechnen
     def umfang_trapez(self):
         return self.länge_a + self.länge_b + self.länge_c + self.länge_d
-    
-    # Berechnung der Fläche eines Trapezes
     def fläche_trapez(self):
         return (self.höhe / 2) * (self.länge_a + self.länge_b)
 
-# Klasse für Rechtecke, erbt von Polygone
+# Klasse für Rechtecke, erbt von Polygone-Parent-Klasse
 class Rechteck(Polygone):
     pass
 
-# Klasse für Quadrate, erbt von Polygone
+# Klasse für Quadrate, erbt von Polygone-Parent-Klasse
 class Quadrat(Polygone):
     def __init__(self, länge_a):
         super().__init__(länge_a, länge_a)
 
-# Hauptprogramm mit einer while schleife Benutzereingaben
+# HAUPTTEIL mit einer while schleife um Benutzereingaben zu ermöglichen oder Programm zu beenden
 while True:
     figur_wahl = input("Wählen Sie eine der Figuren:\n1. Rechteck\n2. Quadrat\n3. Dreieck\n4. Trapez\n5. Programm beenden.\n")
     if figur_wahl == "5":
@@ -66,7 +58,7 @@ while True:
     
     try:
         werte = []
-        # Je nach Wahl des Nutzers passende Werte einlesen
+        # Je nach Wahl des Nutzers passende Werte einlesen für spätere Berechnung
         if figur_wahl == "1":
             werte.append(int(input("Bitte Länge in cm eingeben:\n")))
             werte.append(int(input("Bitte Breite in cm eingeben:\n")))

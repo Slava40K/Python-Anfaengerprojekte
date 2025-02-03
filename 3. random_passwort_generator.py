@@ -1,4 +1,4 @@
-# Programm zum Generien von zufälligen Passwörtern
+# Programm zum Generieren von zufälligen Passwörtern
 # mit einer Länge von 8-12 Zeichen und Nutzung von Groß- und Kleinbuchstaben, Sonderzeichen und Zahlen
 
 import random
@@ -15,11 +15,11 @@ stringliste = []
 pw_länge = random.randint(8,12)
 
 # for Schleife um zufällige Zahlen zu generieren, die dann mit Index platz der Zeichen
-# in der Zeichenliste abgeglichen werden und der stringkiste zugefügt werden.
+# in der Zeichenliste abgeglichen werden und der stringliste zugefügt werden.
 for digits in range(pw_länge):
     
     i = random.randint(1,len(zeichen_liste))
-    random.shuffle(zeichen_liste)
+    random.shuffle(zeichen_liste) # 'mischen' der zeichenliste um höhere Zufälligkeit zu erreichen
     
     if i < len(zeichen_liste):
         char = zeichen_liste[i]
@@ -33,6 +33,7 @@ for digits in range(pw_länge):
 # und dieser wird in der Variable password gespeichert.
 password = "".join(stringliste)
 
+# print call mit f-strings um finale Nachricht mit dem Passwort anzuzeigen
 print(  f"\nDein zufällig generiertes Passwort lautet: {password}"
         f" , ist {pw_länge} Zeichen lang und beinhaltet Klein/Großbuchstaben, Sonderzeichen und Zahlen\n")
 

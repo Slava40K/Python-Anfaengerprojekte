@@ -4,7 +4,7 @@
 # random Modul für die CPU-Wahl importieren
 import random
 
-# Tracker für Siege/Niederlagen/Unentschieden
+# counter-variablen für Siege/Niederlagen/Unentschieden
 Siege = 0
 Niederlagen = 0
 Unentschieden = 0
@@ -33,7 +33,7 @@ def spiele_runde(nutzer_wahl):
 
 # while-Schleife, um Nutzerwahl zu ermöglichen
 while True:
-    # Nutzerwahl
+
     nutzer_wahl = input("Bitte wählen Sie:\n"
                         "1. Schere\n"
                         "2. Stein\n"

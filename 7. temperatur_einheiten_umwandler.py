@@ -21,7 +21,6 @@ def kelvin_umwandeln(kelvin):
 
 # HAUPTTEIL
 # While Schleife um Nutzer Umwandlung wählen zu lassen
-
 while True:
     print("\nWähle eine Umrechnung:")
     print("\n1. Celsius in Fahrenheit und Kelvin")
@@ -31,11 +30,13 @@ while True:
 
     auswahl = input("\nEntsprechende Zahl eingeben und mit 'Enter' bestätigen: ")
     
+    # conditional statements je nach gewählter Umwandlung, die Umwandlung errechnen und 
+    # entsprechende print calls um das Ergebnis zu verkünden
     if auswahl == "1":
         celcius = float(input("\nTemperatur in Celsius ° eingeben: \n"))
         fahrenheit, kelvin = celsius_umwandeln(celcius)
         print(f"\nDie Temperatur beträgt {celcius}°C Celcius, {fahrenheit}°F Fahrenheit und {kelvin}K Kelvin.\n")
-    
+
     elif auswahl == "2":
         fahrenheit = float(input("\nTemperatur in Fahrenheit° eingeben: \n"))
         celsius, kelvin = fahrenheit_umwandeln(fahrenheit)

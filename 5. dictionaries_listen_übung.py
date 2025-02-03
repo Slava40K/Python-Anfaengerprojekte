@@ -44,11 +44,11 @@ for k,v in user_data.items():
         print(f"{k} your username and password is:\n\t {v}")
 
 # Dictionaries die als 'value' innerhalb von übergeordneten Dictionaries befinden
-persons = {'buttfucker3000':
+persons = {'FlashbangFury':
                             {'first':'alber','last':'einstein','location':'Miami'},
            'ToiletDestroyer':
                             {'first':'tom','last':'','location':'Utah'},
-           'gnomish_child_fondler':
+           'NeonVortex':
                             {'first':'Peter','last':'Griffin','location':'Quahog'},
            
            }

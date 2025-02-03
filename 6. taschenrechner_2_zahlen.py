@@ -4,13 +4,10 @@
 # Funktionen für verschiedene Rechenoperationen
 def addition(zahl_1, zahl_2):
     return zahl_1 + zahl_2
-
 def subtraktion(zahl_1, zahl_2):
     return zahl_1 - zahl_2
-
 def multiplikation(zahl_1, zahl_2):
     return zahl_1 * zahl_2
-
 def division(zahl_1, zahl_2):
     # Errorhandling im Falle der Division durch 0
     if zahl_2 == 0:

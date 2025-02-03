@@ -25,7 +25,7 @@ while True:
     except ValueError:
         print("Bitte gib eine gültige Zahl ein.")
 
-# if-Anweisungen
+# if-Anweisungen um Würfel zu werfen, basieren darauf ob ein oder mehrere geworfen werden sollen
 if wuerfelanzahl == 1:
     wuerfeln_einmal(wuerfelseiten)
 else:

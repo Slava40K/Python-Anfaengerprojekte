@@ -1,6 +1,8 @@
 # Code Showcase
 This repository is a small selection of the beginner-level Python projects
 that I've been working on in my free time over the last year or so.
+The main goal I had when creating these projects was simply to have fun while learning the basic concepts of the Python programming language. 
+
 
 Contents:
   - Polygon Calculator:    Calculates measurements of 2-dimensional polygons.
@@ -8,11 +10,11 @@ Contents:
   - Password Generator:    Generates random passwords containing letters, numbers, symbols
   - Notepad:               Can open, read, write and save to .txt files.
   - Dictionaries Exercise: Exercise to practice combining dicts, lists and loops in Python.
-  - Calculator:            Simple calculator that performs the 4 basic arithmetic operations                                with up to 2 integers.
+  - Calculator:            Simple calculator that performs the 4 basic arithmetic operations with up to 2 integers.
   - Temperature Converter: Converts Celsius into Fahrenheit and Kelvin, and vice versa
   - Hangman:               A simple Hangman-game.
   - Rock, Paper, Scissors: Allows the user to play against the CPU.
   - Dice rolling:          Simulates rolling dice with a customizable number of sides and dice.
 
-The main goal I had when creating these projects was simply to have fun while learning the basic concepts of the Python programming language. 
+
 

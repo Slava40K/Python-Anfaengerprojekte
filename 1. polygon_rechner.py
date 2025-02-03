@@ -7,7 +7,7 @@ class Polygone:
     def __init__(self, länge_a, breite):
         self.länge_a, self.breite = länge_a, breite
     
-    # Funktionen um verschieden Maße von Rechteck/Quadrat zu berechnen
+    # Funktionen um verschiedene Maße von Rechteck/Quadrat zu berechnen
     def umfang_rechteck(self):
         return 2 * (self.länge_a + self.breite)
     def fläche_rechteck(self):

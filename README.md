@@ -1,23 +1,18 @@
 # Code Showcase
-Hier findet sich eine kleine Auswahl einiger meiner Python Anfängerprojekte,
-an denen ich bisher in meiner Freizeit gebastelt habe.
+This repository is a small selection of the beginner-level Python projects
+that I've been working on in my free time over the last year or so.
 
-Inhalt:
-  - Polygon-Rechner:       Berechnung von 2 dimensionalen Polygonfiguren
-  - Cäsar-Verschlüsselung: Ein Programm um Nachrichten zu Ver- und Entschlüsseln
-  - Passwort-Generator:    Erstellt zufällig generierte Passwörter
-  - Text-leser:            Kann .txt Dateien öffnen, lesen und neue Informationen hinzufügen und speichern
-  - Dictionaries übung:    Übung zum Kombinieren von Listen, Dictionaries und Schleifen
-  - Taschenrechner:        Taschenrechner der die 4 Grundrechenarten mit 2 Zahlen ausführen kann
-  - Temperatur-Umwandler:  Wandelt Celcius in Fahrenheit und Kelvin um und vice versa
-  - Galgen-Männchen:       simples Galgenmännchen Spiel
-  - Schere,Stein,Papier:   Spiele SSP gegen den Computer
-  - Würfelsimulator:       Erlaubt es eine beliebige Anzahl von Würfeln mit einer Beliebigen Anzahl von Seiten zu werfen
+Contents:
+  - Polygon Calculator:    Calculates measurements of 2-dimensional polygons.
+  - Caesar Cipher:         Encrypts or decrypts messages using the caesar-cipher.
+  - Password Generator:    Generates random passwords containing letters, numbers, symbols
+  - Notepad:               Can open, read, write and save to .txt files.
+  - Dictionaries Exercise: Exercise to practice combining dicts, lists and loops in Python.
+  - Calculator:            Simple calculator that performs the 4 basic arithmetic operations                                with up to 2 integers.
+  - Temperature Converter: Converts Celsius into Fahrenheit and Kelvin, and vice versa
+  - Hangman:               A simple Hangman-game.
+  - Rock, Paper, Scissors: Allows the user to play against the CPU.
+  - Dice rolling:          Simulates rolling dice with a customizable number of sides and dice.
 
-Dieses Repository dient lediglich dazu um es meinen Bewerbungen beizufügen, da ich 
-mich für eine Ausbildungsstelle bewerben möchte und hiermit eine kleine Vorschau meiner
-Coding-Fähigkeiten gebe.
-
-Der Hauptzweck dieser Projekte war einfach Spaß am Programmieren zu haben und dabei
-die Grundlagen von Python zu erlernen.
+The main goal I had when creating these projects was simply to have fun while learning the basic concepts of the Python programming language. 
 
